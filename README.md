@@ -16,7 +16,7 @@ A Python package for direct and recursive quantum algorithms to compute **spectr
 
 ## Installation
 
-Clone the repository and install dependencies (for now please refer to requirements.txt and install libraries manually):
+Clone the repository and install dependencies (for now please refer to requirements.txt and install libraries manually).
 
 ---
 
