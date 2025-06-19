@@ -1,0 +1,27 @@
+# Core scientific Python stack
+numpy
+scipy
+
+# Qiskit and Qiskit Nature for quantum simulation (if one requires qiskit 2.0 integation or later, please contact me at araf.haque@kcl.ac.uk)
+qiskit==1.4.0
+qiskit-algorithms==0.3.1
+qiskit-nature==0.7.2
+qiskit-aer==0.17.1
+
+# Vayesta for advanced embedding and lattice models from https://github.com/BoothGroup/vayesta (requires CMAKE)
+vayesta 
+
+# PySCF for quantum chemistry (via pip or vayesta)
+pyscf 
+
+# Dyson for spectral function tools (from https://github.com/BoothGroup/dyson)
+dyson 
+
+# For testing
+pytest
+
+# (Optional) Jupyter for interactive notebooks
+jupyter
+
+# (Optional) For plotting examples and visualizations
+matplotlib
