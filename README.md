@@ -2,13 +2,15 @@
 
 A Python package for direct and recursive quantum algorithms to compute **spectral moments**, **density matrices**, and other quantum observables using [Qiskit](https://qiskit.org/), [PySCF](https://pyscf.org/), [Vayesta] (https://github.com/BoothGroup/Vayesta) and [DYSON] (https://github.com/BoothGroup/dyson). Includes utilities for **quantum chemistry**, **quantum simulation**, and tools for benchmarking with FCI and other classical methods.
 
+The quantum enhanced spectral moments and RDMs can be used to perform EwDMET and DMET calculations using Vayesta.
+
 ---
 
 ## Features
 
 - **Direct and recursive spectral moments calculations**
 - **Qiskit-Aer integration**: VQE, expectation values, Hadamard tests
-- **PySCF & Vayesta integration**: quantum chemistry and lattice models
+- **PySCF & Vayesta integration**: quantum chemistry, lattice models and quantum embedding
 - Utilities for Galitskii-Migdal energy, double occupation, and spectral functions
 - Well-structured, extensible, and tested.
 
@@ -30,3 +32,6 @@ This package implements and builds on the following works:
 - [4] PySCF: The Python-based Simulations of Chemistry Framework. [https://pyscf.org](https://pyscf.org)
 
 Please cite these works if you use this package in your research.
+
+--- 
+
