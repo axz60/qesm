@@ -157,7 +157,7 @@ def spectral_function(
     solver = MixedMBLGF(hole_mblgf, particle_mblgf)
     solver.kernel() 
     poles,dyson_orbitals = solver.get_dyson_orbitals()
-    spectral_function = util.build_spectral_function(poles, dyson_orbitals,omega_grid, eta=0.01)
+    spectral_function = util.build_spectral_function(poles, dyson_orbitals,omega_grid, eta=eta)
 
     outputs = {'spectral function': spectral_function, 'grid': omega_grid}
 
